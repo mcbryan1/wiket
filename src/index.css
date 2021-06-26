@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "FaibleBold";
+  src: local("FaibleBold"), url("./fonts/Faible-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "FaibleRegular";
+  src: local("FaibleRegular"),
+    url("./fonts/Faible-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "FaibleMedium";
+  src: local("FaibleMedium"),
+    url("./fonts/Faible-Medium.otf") format("opentype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "SpoofTrialBold";
+  src: local("SpoofTrialBold"),
+    url("./fonts/SpoofTrial-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SpoofTrialMedium";
+  src: local("SpoofTrialMedium"),
+    url("./fonts/SpoofTrial-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "SpoofTrialRegular";
+  src: local("SpoofTrialRegular"),
+    url("./fonts/SpoofTrial-Regular.otf") format("opentype");
 }
