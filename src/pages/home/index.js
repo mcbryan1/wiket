@@ -1,3 +1,4 @@
+
 import MainHome from './MainHome'
 import '../../App.css'
 
@@ -8,5 +9,6 @@ const Home = () => {
        </div>
     )
 }
+
 
 export default Home

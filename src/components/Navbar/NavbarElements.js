@@ -25,10 +25,12 @@ export const NavLink = styled(Link)`
   &.active {
     color: #faa834;
   }
+
   &:hover {
     transition: all 0.3s ease-in-out;
     color: #faa834;
   }
+
 `;
 
 export const Bars = styled(CgMenuRight)`
@@ -78,13 +80,17 @@ export const NavBtnLink = styled(Link)`
   border: none;
   font-family: "FaibleBold";
   cursor: pointer;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-decoration: none;
   /* Second Nav */
   margin-left: 24px;
   &:hover {
+
     transition: all 0.3s ease-in-out;
     background: #004e4c;
     color: #fff;
+
   }
 `;

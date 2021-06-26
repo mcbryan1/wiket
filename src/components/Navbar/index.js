@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, NavBtn, NavBtnLink, Bars } from "./NavbarElements";
 import logo from "../../images/svg/wiket-logo.svg";
-import '../../App.css'
+import "../../App.css";
 
 const Navbar = () => {
   return (

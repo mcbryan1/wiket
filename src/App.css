@@ -19,7 +19,7 @@
 .imgContainer img {
   height: 30rem;
   border-radius: 20px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 /************* Potter CSS **************/
@@ -97,34 +97,33 @@
   color: #004e4c;
 }
 
-
 /************* Right Text CSS **************/
-.rightContainer{
+.rightContainer {
   margin-top: 5rem;
 }
-.rightContainer p{
+.rightContainer p {
   font-family: SpoofTrialRegular;
   color: #004e4c;
   letter-spacing: 1px;
   font-size: 1.5rem;
 }
-.rightContainer h1{
+.rightContainer h1 {
   font-size: 4rem;
   color: #faa834;
   font-family: SpoofTrialBold;
 }
-.rightContainer h1 span{
+.rightContainer h1 span {
   color: #004e4c;
 }
-.rightContainerDetails{
+.rightContainerDetails {
   margin-top: 5rem;
 }
-.rightContainerDetails p{
+.rightContainerDetails p {
   color: #004e4c;
   font-family: FaibleBold;
   font-size: 1.1rem;
 }
-.rightContainerDetails p span{
+.rightContainerDetails p span {
   font-family: FaibleRegular;
 }
 
@@ -136,7 +135,7 @@
   .innerContent1 {
     position: absolute;
     left: 4rem;
-    top: 47rem;
+    top: 58rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
@@ -151,7 +150,7 @@
   .innerContent2 {
     position: absolute;
     left: 14rem;
-    top: 55rem;
+    top: 65.5rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
@@ -162,7 +161,7 @@
   .innerContent3 {
     position: absolute;
     left: 2rem;
-    top: 61rem;
+    top: 72rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
@@ -182,16 +181,19 @@
   .mainContainer {
     background-color: #fcfcfc;
   }
-  .rightContainer p{
+  .rightContainer p {
     font-size: 1.3rem;
   }
-  .rightContainer h1{
+  .rightContainer h1 {
     font-size: 3.5rem;
   }
-  .rightContainerDetails{
+  .rightContainerDetails {
     margin-top: 2rem;
   }
-  .rightContainerDetails p{
+  .rightContainerDetails p {
     font-size: 1.5rem;
   }
+}
+.logo {
+  font-size: 5rem;
 }
