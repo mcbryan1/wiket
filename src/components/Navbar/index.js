@@ -26,10 +26,18 @@ const Navbar = () => {
           </div>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <NavLink to="/benefit">Benefits</NavLink>
-              <NavLink to="/profile">Your Profile</NavLink>
-              <NavLink to="/connections">Connections</NavLink>
-              <NavLink to="/plans">Plans & Pricing</NavLink>
+              <NavLink to="/benefit" className="navLinks first">
+                Benefits
+              </NavLink>
+              <NavLink to="/profile" className="navLinks">
+                Your Profile
+              </NavLink>
+              <NavLink to="/connections" className="navLinks">
+                Connections
+              </NavLink>
+              <NavLink to="/plans" className="navLinks">
+                Plans & Pricing
+              </NavLink>
             </div>
             <NavBtn>
               <NavBtnLink to="/signin">Get Started</NavBtnLink>

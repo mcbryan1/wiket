@@ -8,7 +8,7 @@
 }
 .nav {
   background-color: inherit !important;
-  padding: 1.1rem 0;
+  
 }
 .getStartedMobile{
   display: none;
@@ -147,6 +147,16 @@
 }
 
 @media screen and (max-width: 700px) {
+  .nav{
+    padding: 1.1rem 0;
+  }
+  .navLinks{
+    margin-bottom: .9rem;
+    align-self: center !important;
+  }
+  .first{
+    margin-top: 1.1rem;
+  }
   .getStartedMobile{
     display: inline;
   }
@@ -242,6 +252,10 @@
 
 
 @media screen and (max-width: 380px){
+  .getStartedMobile{
+    margin-right: .8rem;
+  }
+  
   .rightContainer h1{
     font-size: 3rem;
   }
