@@ -21,12 +21,14 @@
   border-radius: 20px;
   margin-top: 0.5rem;
 }
-
+.imgContainer h6{
+  display: none;
+}
 /************* Potter CSS **************/
 .innerContent1 {
   position: absolute;
   right: 44rem;
-  top: 6rem;
+  top: 7rem;
   background-color: #fff;
   padding: 0.3rem;
   border-radius: 10px;
@@ -127,15 +129,30 @@
   font-family: FaibleRegular;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
   .imgContainer img {
     margin-top: 2rem;
     border-radius: 20px;
   }
+  .imgContainer h6{
+    display: block;
+    margin-top: 4rem;
+    font-family: FaibleBold;
+    color: #004e4c;
+    font-size: 1.2rem;
+  }
+  .imgContainer h6 span{
+    font-family: FaibleRegular;
+    color: #000;
+    font-size: 1rem;
+  }
+  .imgContainer p{
+    display: none;
+  }
   .innerContent1 {
     position: absolute;
     left: 4rem;
-    top: 58rem;
+    top: 65rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
@@ -150,33 +167,33 @@
   .innerContent2 {
     position: absolute;
     left: 16rem;
-    top: 65.5rem;
+    top: 72rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
-    height: 9rem;
+    height: 10rem;
     width: 8.2rem;
   }
 
   .innerContent2 img {
     width: 7.5rem;
     border-radius: 10px;
-    height: 5.5rem;
+    height: 6.5rem;
   }
   .innerContent3 {
     position: absolute;
     left: 2rem;
-    top: 72rem;
+    top: 79rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
-    height: 9rem;
-    width: 8.2rem;
+    height: 10rem;
+    width: 9.2rem;
   }
   .innerContent3 img {
-    width: 7.5rem;
+    width: 8.5rem;
     border-radius: 10px;
-    height: 5.5rem;
+    height: 6.5rem;
   }
   .homeConatainer {
     margin-top: 3rem;
@@ -211,7 +228,7 @@
   .innerContent1 {
     position: absolute;
     left: 3rem;
-    top: 58rem;
+    top: 63rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
@@ -221,11 +238,35 @@
   .innerContent2 {
     position: absolute;
     left: 13.5rem;
-    top: 65.5rem;
+    top: 70.5rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
-    height: 9rem;
+    height: 10rem;
     width: 8.2rem;
+  }
+  .innerContent2 img {
+    width: 7.5rem;
+    border-radius: 10px;
+    height: 6.5rem;
+  }
+
+  .innerContent3 {
+    position: absolute;
+    left: 2rem;
+    top: 78rem;
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 10px;
+    height: 11rem;
+    width: 9.2rem;
+  }
+  .innerContent3 img {
+    width: 8.5rem;
+    border-radius: 10px;
+    height: 7.5rem;
+  }
+  .rightContainerDetails p {
+    font-size: 1.3rem;
   }
 }

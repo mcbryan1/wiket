@@ -21,7 +21,7 @@ const MainHome = () => {
           <div className="innerContent2 shadow-lg">
             <img src={gardener} alt="gardener" />
             <p>
-              Potject <br /> <span>Gardener in CheChe</span>
+              Green Thumb <br /> <span>Gardener in CheChe</span>
             </p>
           </div>
 
@@ -35,11 +35,16 @@ const MainHome = () => {
 
           {/********  Main Image Container   *******/}
           <div className="imgContainer">
+            <h6>Hanging Garden <br /><span>Florist in Bangkok</span> </h6>
             <div className="text-center">
               <img src={florist} alt="florist" className="img-fluid" />
             </div>
+            <p>Hanging Garden <br /><span>Florist in Bangkok</span> </p>
           </div>
         </div>
+
+
+        {/********  Right Column   *******/}
         <div className="col-md-4 order-1 order-md-2">
           <div className="rightContainer text-left">
             <p>Explore new opportunities.</p>
