@@ -39,10 +39,10 @@ export const Bars = styled(CgMenuRight)`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    bottom: 2rem;
     right: 0;
-    transform: translate(-100%, 43%);
-    font-size: 1.8rem;
+    transform: translate(-80%, 45%);
+    font-size: 2rem;
     cursor: pointer;
   }
 `;

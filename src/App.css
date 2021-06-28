@@ -8,6 +8,7 @@
 }
 .nav {
   background-color: inherit !important;
+  padding: 1.1rem 0;
 }
 .getStartedMobile{
   display: none;
