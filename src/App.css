@@ -149,15 +149,20 @@
   }
   .innerContent2 {
     position: absolute;
-    left: 14rem;
+    left: 16rem;
     top: 65.5rem;
     background-color: #fff;
     padding: 0.3rem;
     border-radius: 10px;
     height: 9rem;
-    width: 7.7rem;
+    width: 8.2rem;
   }
 
+  .innerContent2 img {
+    width: 7.5rem;
+    border-radius: 10px;
+    height: 5.5rem;
+  }
   .innerContent3 {
     position: absolute;
     left: 2rem;
@@ -196,4 +201,31 @@
 }
 .logo {
   font-size: 5rem;
+}
+
+
+@media screen and (max-width: 380px){
+  .rightContainer h1{
+    font-size: 3rem;
+  }
+  .innerContent1 {
+    position: absolute;
+    left: 3rem;
+    top: 58rem;
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 10px;
+    height: 9rem;
+    width: 8.2rem;
+  }
+  .innerContent2 {
+    position: absolute;
+    left: 13.5rem;
+    top: 65.5rem;
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 10px;
+    height: 9rem;
+    width: 8.2rem;
+  }
 }
