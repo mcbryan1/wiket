@@ -11,6 +11,9 @@ const Navbar = () => {
           <NavLink to="/">
             <img src={logo} alt="logo" />
           </NavLink>
+          <div className="getStartedMobile">
+            <NavBtnLink to="/signin">Get Started</NavBtnLink>
+          </div>
           <div
             className="navbar-toggler"
             data-bs-toggle="collapse"
