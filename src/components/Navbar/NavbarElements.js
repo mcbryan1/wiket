@@ -84,7 +84,7 @@ export const NavBtnLink = styled(Link)`
   transition: all 0.5s ease-in-out;
   text-decoration: none;
   /* Second Nav */
-  margin-left: 24px;
+  
   &:hover {
 
     transition: all 0.3s ease-in-out;
@@ -94,6 +94,6 @@ export const NavBtnLink = styled(Link)`
   }
 
   @media screen and (max-width: 380px) {
-    padding: 10px 10px;
+    padding: 10px 12px;
   }
 `;
