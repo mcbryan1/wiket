@@ -24,6 +24,19 @@
 .imgContainer h6{
   display: none;
 }
+.imgContainer p{
+  position: absolute;
+  left: 13rem;
+  bottom: 1rem;
+  font-family: FaibleBold;
+  color: #004e4c;
+  font-size: 1.1rem;
+}
+.imgContainer p span{
+  font-family: FaibleRegular;
+  color: #000;
+  font-size: .9rem;
+}
 /************* Potter CSS **************/
 .innerContent1 {
   position: absolute;
@@ -129,7 +142,7 @@
   font-family: FaibleRegular;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 700px) {
   .imgContainer img {
     margin-top: 2rem;
     border-radius: 20px;

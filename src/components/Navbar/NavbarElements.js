@@ -80,7 +80,6 @@ export const NavBtnLink = styled(Link)`
   border: none;
   font-family: "FaibleBold";
   cursor: pointer;
-<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
   transition: all 0.5s ease-in-out;
   text-decoration: none;

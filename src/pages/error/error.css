@@ -1,0 +1,54 @@
+.fourOfourText {
+  margin-top: 10rem;
+}
+.fourOfourText h1 {
+  font-family: FaibleBold;
+  font-size: 5rem;
+  color: #000;
+  margin-left: 20px;
+}
+.fourOfourText p {
+  font-family: FaibleRegular;
+  margin-left: 24px;
+}
+.comeHomeBtn {
+  margin-top: 3rem;
+}
+
+.comeHomeButton {
+  border-radius: 5px;
+  background: #faa834;
+  padding: 10px 22px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-family: "FaibleBold";
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  margin-left: 24px;
+}
+.comeHomeButton:hover{
+    transition: all 0.3s ease-in-out;
+    background: #004e4c;
+    color: #fff;
+}
+
+@media screen and (max-width: 780px) {
+  .fourOfourImage {
+    margin-top: 5rem;
+  }
+  .fourOfourText {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .fourOfourImage {
+    margin-top: 3rem;
+  }
+  .fourOfourText {
+    margin-top: 5rem;
+  }
+}
