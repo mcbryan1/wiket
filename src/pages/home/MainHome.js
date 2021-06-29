@@ -3,6 +3,10 @@ import florist from "../../images/jpg/header-img-florist.jpg";
 import potter from "../../images/jpg/header-img-pottery.jpg";
 import gardener from "../../images/jpg/header-img-gardener.jpg";
 import barista from "../../images/jpg/header-img-barista.jpg";
+import pin1 from '../../images/svg/pin-01.svg'
+import pin2 from '../../images/svg/pin-02.svg'
+import headerLine from '../../images/svg/header-line-desktop.svg'
+
 
 const MainHome = () => {
   return (
@@ -35,6 +39,11 @@ const MainHome = () => {
 
           {/********  Main Image Container   *******/}
           <div className="imgContainer">
+            <div className="bgImages">
+              <img src={pin2} alt="pinetwo" className="img-fluid pin2"/>
+              <img src={pin1} alt="pineone" className="img-fluid pin1"/>
+              <img src={headerLine} alt="headerline" className="img-fluid headerLine" />
+            </div>
             <h6>Hanging Garden <br /><span>Florist in Bangkok</span> </h6>
             <div className="text-center">
               <img src={florist} alt="florist" className="img-fluid" />
