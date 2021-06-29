@@ -172,7 +172,7 @@
 
 @media screen and (max-width: 700px) {
   .mainContainer{
-    height: 90vh;
+    height: 145vh;
   }
   .nav{
     padding: 1.1rem 0;
@@ -272,11 +272,9 @@
   .homeConatainer {
     margin-top: 3rem;
     padding: 0 1rem;
-    background-color: #fcfcfc;
+    
   }
-  .mainContainer {
-    background-color: #fcfcfc;
-  }
+  
   .rightContainer p {
     font-size: 1.3rem;
   }
@@ -299,7 +297,9 @@
   .getStartedMobile{
     margin-right: .8rem;
   }
-  
+  .mainContainer{
+    height: 170vh;
+  }
   .rightContainer h1{
     font-size: 3rem;
   }
@@ -347,4 +347,5 @@
   .rightContainerDetails p {
     font-size: 1.3rem;
   }
+  
 }
