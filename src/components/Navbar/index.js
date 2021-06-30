@@ -1,12 +1,44 @@
-import React from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useState, useEffect } from "react";
 import { NavLink, NavBtn, NavBtnLink, Bars } from "./NavbarElements";
 import logo from "../../images/svg/wiket-logo.svg";
 import "../../App.css";
+import { navbarAnimation } from "../../utils/animations";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const [nvbar, setNvbar] = useState(false);
+  const screenSize = () => {
+    setWidth(width);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", screenSize);
+    return () => {
+      console.log("cleanup");
+      window.removeEventListener("resize", screenSize);
+    };
+  }, []);
+
+  // Scrolll Effect
+  const changeBackground = ()=>{
+    if(window.screenY >= 70){
+      setNvbar(true);
+    } else{
+      setNvbar(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
+
   return (
-    <>
-      <nav className="navbar navbar-expand-lg fixed-top nav">
+    <motion.div
+      variants={width <= 786 ? null : navbarAnimation}
+      initial="initial"
+      animate="animate"
+    >
+      <nav className={nvbar ? 'nav active' : 'navbar navbar-expand-lg fixed-top nav'}>
         <div className="container-fluid">
           <NavLink to="/">
             <img src={logo} alt="logo" />
@@ -45,7 +77,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    </motion.div>
   );
 };
 

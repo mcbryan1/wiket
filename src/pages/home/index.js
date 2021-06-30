@@ -2,6 +2,7 @@ import MainHome from "./MainHome";
 import "../../App.css";
 import phoneHeaderLine from "../../images/svg/header-line-phone-portrait.svg";
 
+
 const Home = () => {
   return (
     <div className="homeConatainer">
