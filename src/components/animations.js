@@ -101,24 +101,7 @@ export const baristaVariant = {
   },
 };
 
-export const svgPinVariant = {
-  initial: { y: -12, opacity: 0 },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      type: "spring",
-      stiffness: 100,
-      delay: 3.5,
-      duration: 5,
-      y: {
-        yoyo: Infinity,
-        duration: 5,
-        ease: "easeInOut",
-      },
-    },
-  },
-};
+
 
 export const mainImageContainerTextVariant = {
   initial: { opacity: 0 },
