@@ -21,7 +21,7 @@ import {
   rightTextContainerSubTextVariant,
   rightTextContainerTextVariant,
   rightTextContainerSubVariant,
-} from "../../utils/animations";
+} from "../../components/animations";
 
 const MainHome = () => {
   const [animation, cycleAnimation] = useCycle(
